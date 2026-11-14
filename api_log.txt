@@ -1,0 +1,1 @@
+select count(students.id) from students  where students.session='2026-27' and students.cid='200' and students.status='active' and standard='Sixth'

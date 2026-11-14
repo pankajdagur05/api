@@ -1,0 +1,9 @@
+Unknown column 'time' in 'field list'
+INSERT INTO apk_token SET
+            token='MDA6a2546ce6914c',
+            date='2026-06-07',
+            time='15:54:14',
+            ip='54.86.50.139',
+            type='staff',
+            user='7297870877',
+            sub_domain='MDA'

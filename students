@@ -1,0 +1,139 @@
+<?php include("../db.php");
+$json = file_get_contents('php://input');
+$obj = json_decode($json,true);
+$username=$obj['username'];
+$user=$username;
+$otp=$obj['otp'];
+$password=$obj['password'];
+if($username){
+$q="select * from staff where mobile='$username'";
+$sql=mysqli_query($host,$q);
+$r=mysqli_num_rows($sql);
+if($password){
+ $password=md5($password);
+    
+    $sql=mysqli_query($host,"select * from otp where username='$username' and otpcode='$otp'");
+    $like=mysqli_fetch_array($sql);
+    if($r>0){
+        
+        mysqli_query($host,"update staff set password='$password' where mobile='$username'");
+        	$ar1 = array();
+		 $ar1['status']=true;
+		 $ar1['message']='success';
+		     
+		       echo $json = json_encode($ar1);
+        
+        
+    }else{
+        	$ar1 = array();
+		 $ar1['status']=false;
+		 $ar1['message']='OTP Did not Match';
+		  echo $json = json_encode($ar1);
+        
+    }
+
+
+    
+   
+    
+}else{
+
+if($otp){
+    
+    $sql=mysqli_query($host,"select * from otp where username='$username' and otpcode='$otp'");
+    $like=mysqli_fetch_array($sql);
+    $r=mysqli_num_rows($sql);
+    if($r>0){
+        	$ar1 = array();
+		 $ar1['status']=true;
+		 $ar1['message']='success';
+		     
+		       echo $json = json_encode($ar1);
+        
+        
+    }else{
+        	$ar1 = array();
+		 $ar1['status']=false;
+		 $ar1['message']='OTP Did not Match';
+		     
+		       echo $json = json_encode($ar1);
+        
+    }
+
+
+    
+}
+else{
+    
+  $ot=rand(1000,9999);
+ 	$dat=date("y-m-d");
+$tym=date("h-i-s");
+    $like=mysqli_fetch_array($sql);
+    if($r>0){
+                $ar1 = array();
+		 $ar1['status']=true;
+		 $ar1['message']="Success";
+		 $mob=$like['mobile'];
+	$subdomain=$like['sub_domain'];
+	$branch=$like['branch'];
+$q="insert into otp set otpcode='$ot',username='$mob',cid='$branch',date='$dat'";
+		if(mysqli_query($host,$q)){
+ 
+  $URL = "http://mobicomm.dove-sms.com/mobicomm/submitsms.jsp?"; 
+    
+    $data="user=SMARTECH&key=139e57ebc5XX&mobile=+91$mob&message=Your OTP is $ot and valid for few time . From MDA Wschool.&senderid=WSCHOL&accusage=1&entityid=1701158080734587908&tempid=1707163826298051126";
+    
+    
+       $ch = curl_init($URL);
+       curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+       curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+       curl_setopt($ch, CURLOPT_POST, 1);
+       curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+       $output = curl_exec($ch);
+       curl_close($ch);
+		}
+
+		     
+		 
+		  
+	
+            
+              echo $json = json_encode($ar1); 
+        }else{
+        	$ar1 = array();
+		 $ar1['status']=false;
+		 $ar1['message']='Username Did not Exist';
+		     
+		       echo $json = json_encode($ar1);
+        
+    }
+
+}
+
+
+}
+
+}else{
+    
+    ?>
+    <script>
+        window.location="http://edpluss.com";
+        
+    </script>
+    <?php
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+?>

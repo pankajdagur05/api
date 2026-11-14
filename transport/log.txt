@@ -1,0 +1,1 @@
+select students.id,students.name,students.standard,students.area as location,students.stopage from students where students.cid='24' and students.status='Active' and students.session='2024-25' and students.route='jodhdas-jodhdas' order by priority asc

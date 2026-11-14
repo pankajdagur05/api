@@ -1,0 +1,1 @@
+delete from uploadresult where sid='172568' and exam='SEPTEMBER MONTHLY TEST' and subject='English' and cid='175'delete from uploadresult where sid='172568' and exam='SEPTEMBER MONTHLY TEST' and subject='English' and cid='175'delete from uploadresult where sid='172568' and exam='SEPTEMBER MONTHLY TEST' and subject='English' and cid='175'

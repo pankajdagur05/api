@@ -1,0 +1,29 @@
+2026-08-19 13:45:22 | Query: INSERT INTO push_tokens (sub_domain, role, user_id, fcm_token, updated_at)
+        VALUES ('MDA','teacher','','abc123-testtoken', NOW())
+        ON DUPLICATE KEY UPDATE fcm_token='abc123-testtoken', updated_at=NOW() | Error: Incorrect integer value: '' for column `marudhar_lms`.`push_tokens`.`user_id` at row 1
+2026-08-19 14:26:57 | SUCCESS | Query: INSERT INTO push_tokens (sub_domain, role, user_id, fcm_token, updated_at)
+        VALUES ('MDA','teacher','1430','abc123-testtoken', NOW())
+        ON DUPLICATE KEY UPDATE fcm_token='abc123-testtoken', updated_at=NOW()
+2026-08-19 14:46:26 | SUCCESS | Query: INSERT INTO push_tokens (sub_domain, role, user_id, fcm_token, updated_at)
+        VALUES ('MDA','student','185521','abc123-testtoken', NOW())
+        ON DUPLICATE KEY UPDATE fcm_token='abc123-testtoken', updated_at=NOW()
+2026-08-19 15:07:25 | SUCCESS | Query: INSERT INTO push_tokens (sub_domain, role, user_id, fcm_token, updated_at)
+        VALUES ('MDA','teacher','1430','abc123-testtoken', NOW())
+        ON DUPLICATE KEY UPDATE fcm_token='abc123-testtoken', updated_at=NOW()
+2026-08-19 15:09:59 | SUCCESS | Query: INSERT INTO push_tokens (sub_domain, role, user_id, fcm_token, updated_at)
+        VALUES ('EDDEMO','student','227899','abc123-testtoken', NOW())
+        ON DUPLICATE KEY UPDATE fcm_token='abc123-testtoken', updated_at=NOW()
+2026-08-24 15:27:10 | Query: INSERT INTO push_tokens (sub_domain, role, mobile, user_id, fcm_token, platform, updated_at)
+            VALUES ('MDA','teacher','7230997773','41','dr5Y8RGmS3e6yPpOUr68Sp:APA91bFIbZIjAQH4p59S5d3n8Ktnk1b4qM1jZciNzYzuNW1_0IAb266vVv_y3iFd7lFiBk5vnx1gTVzu1BtgKS6l487zbIMzqnWKKi5cUxVyU7enrlOuRu8','Android', NOW()) | Error: Duplicate entry 'MDA-teacher-41' for key 'uniq_user'
+2026-09-30 09:45:52 | Query: INSERT INTO push_tokens (sub_domain, role, mobile, user_id, fcm_token, platform, updated_at)
+            VALUES ('Gurukuljaipur','teacher','7877688046','2103','eMuQk2Jw7uvXF9fpxfjB2Y:APA91bEuQuAK7GJP3VVSm9Ms9EL2Hpe13KqKq7bQ-NTDEIYIlFpWHyKHxmuJ9pAQzokKjuk5e5D3D3l6061vRZtmNfLhzIl3DNMfnYHTVXTydc9K6hD1fm0','Android', NOW()) | Error: Duplicate entry 'Gurukuljaipur-teacher-2103' for key 'uniq_user'
+2026-10-03 11:48:44 | Query: INSERT INTO push_tokens (sub_domain, role, mobile, user_id, fcm_token, platform, updated_at)
+            VALUES ('Gurukuljaipur','teacher','7877688046','2103','eqh6GOkPTkm1-KBea0-vP2:APA91bFPl7c2R296gDU-5j9g3U2ejwSV3vuphBh85gh0K1Gi5lWwP4-HzQYKrhSiG0S4qllaod_B0oWmPEWGg7Wq5uANjRiXseKvtxJsGVR_P0-u7B7uBtw','Android', NOW()) | Error: Duplicate entry 'Gurukuljaipur-teacher-2103' for key 'uniq_user'
+2026-10-27 17:03:29 | Query: INSERT INTO push_tokens (sub_domain, role, mobile, user_id, fcm_token, platform, updated_at)
+            VALUES ('MDA','other','','1430','ejG8jovlSaa4ptiK21D7O5:APA91bGpRCLe9eIQNwzBDHDmGlyZcuXFwhFo_-nCaIXw3fKwXa5d3N5J9taV4L4z88ECALlpcblrX9idKpt71OE6fIL9aA0JMy1JFqTToK-NQYs_oCwKgxM','', NOW()) | Error: Data truncated for column 'role' at row 1
+2026-10-27 18:26:15 | Query: INSERT INTO push_tokens (sub_domain, role, mobile, user_id, fcm_token, platform, updated_at)
+            VALUES ('MDA','other','','1430','eV0WeDajSHaxF-4ZxxrC1U:APA91bGV9S64HFo8PqauwdtavhJ7wmOhH68lcV9WVFeGB3tgG3pAwOrsQjpkqPCQt_Y7ISGUEKfg9Oa_Wc-d0Jofp06v6bOY1WACUF62I0aujOZ3H88qVH8','', NOW()) | Error: Data truncated for column 'role' at row 1
+2026-11-02 17:41:46 | Query: INSERT INTO push_tokens (sub_domain, role, mobile, user_id, fcm_token, platform, updated_at)
+            VALUES ('MDA','other','','1430','f0Y7cw56R-Gd0pVdrDvUCs:APA91bG6M5KLn5m6j02ooqT4CtCREv3IUfT_7PPqpcysNrrW8t5UNmhHQREH9bTvHEbBNN7Bcp_kslJEHV759i76bkiE5MJndByU5CY3-nOxfYe2fFyFJhA','', NOW()) | Error: Data truncated for column 'role' at row 1
+2026-11-02 18:51:21 | Query: INSERT INTO push_tokens (sub_domain, role, mobile, user_id, fcm_token, platform, updated_at)
+            VALUES ('MDA','other','','1430','cQ9zNuA2S2KjIr37QT2-Gl:APA91bHIG0QBOLMU4fKehdiKpHOFZ-DqOgFCQfX-kj-ey01WZUIrvB9fV2VBUQ1jr6iaxAxw6pyIb-JmlcXuTFmi-QMKE4o-Xn_YzkYiFy1Zl4GEX92eXMs','', NOW()) | Error: Data truncated for column 'role' at row 1

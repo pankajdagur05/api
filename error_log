@@ -1,0 +1,74 @@
+[16-Mar-2020 07:41:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 15
+[16-Mar-2020 07:41:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/smartechsoftsolu/public_html/leadpanel/api/login.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 62
+[16-Mar-2020 07:41:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 15
+[16-Mar-2020 07:41:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/smartechsoftsolu/public_html/leadpanel/api/login.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 62
+[16-Mar-2020 07:42:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 15
+[16-Mar-2020 07:42:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/smartechsoftsolu/public_html/leadpanel/api/login.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 62
+[16-Mar-2020 07:42:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 15
+[16-Mar-2020 07:42:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/smartechsoftsolu/public_html/leadpanel/api/login.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 62
+[16-Mar-2020 07:42:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 15
+[16-Mar-2020 07:42:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/smartechsoftsolu/public_html/leadpanel/api/login.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 62
+[16-Mar-2020 07:43:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 15
+[16-Mar-2020 07:43:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/smartechsoftsolu/public_html/leadpanel/api/login.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 62
+[16-Mar-2020 07:44:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/smartechsoftsolu/public_html/leadpanel/api/login.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 62
+[16-Mar-2020 07:45:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/smartechsoftsolu/public_html/leadpanel/api/login.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 62
+[16-Mar-2020 07:45:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/smartechsoftsolu/public_html/leadpanel/api/login.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 62
+[16-Mar-2020 07:47:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/smartechsoftsolu/public_html/leadpanel/api/login.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 64
+[16-Mar-2020 07:47:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/smartechsoftsolu/public_html/leadpanel/api/login.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 65
+[16-Mar-2020 07:48:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/smartechsoftsolu/public_html/leadpanel/api/login.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/smartechsoftsolu/public_html/leadpanel/api/login.php on line 65
+[16-Mar-2020 09:28:47 UTC] PHP Warning:  move_uploaded_file(../upload/2020-03-1615843509275e6f46cfa0d2d.jpg): failed to open stream: No such file or directory in /home/smartechsoftsolu/public_html/leadpanel/api/lead.php on line 58
+[16-Mar-2020 09:28:47 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpVOOmHG' to '../upload/2020-03-1615843509275e6f46cfa0d2d.jpg' in /home/smartechsoftsolu/public_html/leadpanel/api/lead.php on line 58
+[16-Mar-2020 09:31:34 UTC] PHP Warning:  move_uploaded_file(../upload/2020-03-1615843510945e6f4776a249f.jpg): failed to open stream: No such file or directory in /home/smartechsoftsolu/public_html/leadpanel/api/lead.php on line 58
+[16-Mar-2020 09:31:34 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpDYCaGd' to '../upload/2020-03-1615843510945e6f4776a249f.jpg' in /home/smartechsoftsolu/public_html/leadpanel/api/lead.php on line 58
+[21-Mar-2020 05:47:19 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:48:44 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:49:07 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:49:43 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:50:23 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:51:10 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:51:52 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:52:09 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:52:31 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:53:13 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:53:36 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:54:22 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:54:50 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:55:15 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:55:45 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
+[21-Mar-2020 05:56:15 UTC] PHP Warning:  A non-numeric value encountered in /home/smartechsoftsolu/public_html/leadpanel/api/complaint.php on line 21
